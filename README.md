@@ -29,5 +29,5 @@ extensions = ['myst_parser', 'changelog']
 :desc: true/false
 :date: true/false
 :commits: true/false
-```
+\`\`\`
 ```
