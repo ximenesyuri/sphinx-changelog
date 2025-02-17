@@ -21,7 +21,7 @@ py install ximenesyuri/changelog --from github
 extensions = ['myst_parser', 'changelog']
 ```
 2. In a `.md` file add a `changelog` code block:
-```markdown
+````markdown
 ```{changelog}
 :repo: github.com/{owner}/{repo}
 :kind: tag/release
@@ -29,5 +29,5 @@ extensions = ['myst_parser', 'changelog']
 :desc: true/false
 :date: true/false
 :commits: true/false
-\`\`\`
 ```
+````
