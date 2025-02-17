@@ -1,0 +1,25 @@
+[project]
+name = "changelog"
+version = "0.0.0"
+description = "A sphinx extension to build changelogs of Github repositories"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "BSD"}
+authors = [
+    {name = "Yuri Ximenes", email = "yx.dev@gmx.ie"},
+]
+
+[build-system]
+requires = [
+    "setuptools>=61.0", 
+    "wheel",
+    "sphinx",
+    "myst-parser",
+    "requests",
+    "python-dotenv",
+    "pytz"
+]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages]
+find = {include = ["changelog"]}
