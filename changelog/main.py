@@ -98,7 +98,7 @@ def fetch_changelog(repo_url, kind, show_title, show_desc, show_commits, show_da
                     commits_text = ', '.join(commits_details)
 
             entry = [
-                f'<h2 class="changelog_title"><a href="{url}">{version}</a></h2>'
+                f'<h3 class="changelog_title"><a href="{url}">{version}</a></h3>'
             ]
             if show_date and kind == 'release':
                 release_date = item.get('published_at') or item.get('created_at', 'Unknown')
