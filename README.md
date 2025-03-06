@@ -1,17 +1,17 @@
 # About
 
-`changelog` is a minimal [sphinx](https://www.sphinx-doc.org/en/master/) extension to easily add changelogs of Github repositories to your documentations.
+`sphinx-changelog` is a minimal [sphinx](https://www.sphinx-doc.org/en/master/) extension to easily add changelogs of Github repositories to your documentations.
 
 # Install
 
 With `pip`:
 ```bash
-/path/to/venv/bin/pip install git+https://github.com/ximenesyuri/changelog
+/path/to/venv/bin/pip install git+https://github.com/ximenesyuri/sphinx-changelog
 ```
 
 With [py](https://github.com/ximenesyuri/py):
 ```bash
-py install ximenesyuri/changelog --from github
+py install ximenesyuri/sphinx-changelog --from github
 ```
 
 # Usage

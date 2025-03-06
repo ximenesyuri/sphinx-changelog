@@ -1,5 +1,5 @@
 [project]
-name = "changelog"
+name = "sphinx-changelog"
 version = "0.0.0"
 description = "A sphinx extension to build changelogs of Github repositories"
 readme = "README.md"
